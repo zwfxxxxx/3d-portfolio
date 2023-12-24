@@ -27,6 +27,10 @@ import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import springboot from './springboot.png'
+import python from './python.png'
+import java from './java.png'
+import MySQL from './MySQL.png'
+
 
 export {
     css,
@@ -57,5 +61,8 @@ export {
     contact,
     soundon,
     soundoff,
-    springboot
+    springboot,
+    python,
+    java,
+    MySQL
 }

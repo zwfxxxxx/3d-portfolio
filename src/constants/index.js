@@ -24,18 +24,27 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    python,
+    java,
+    MySQL
+
 } from "../assets/icons";
 
 export const skills = [
+    {
+        imageUrl: python,
+        name: "PYTHON",
+        type: "Frontend",
+    },
     {
         imageUrl: springboot,
         name: "SPRINGBOOT",
         type: "Frontend",
     },
     {
-        imageUrl: express,
-        name: "Express",
+        imageUrl: java,
+        name: "Java",
         type: "Backend",
     },
     {
@@ -59,8 +68,8 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: mongodb,
-        name: "MongoDB",
+        imageUrl: MySQL,
+        name: "MySql",
         type: "Database",
     },
     {
